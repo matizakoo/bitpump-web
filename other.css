@@ -1,0 +1,514 @@
+.section
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    overflow: hidden;
+}
+
+
+.logging
+{
+    margin-top: 80px;
+    width: 400px;
+    background-color: floralwhite;
+    display: block;
+    align-items: center;
+    background-color: #fafafa;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px #000000;
+}
+
+.logging > p
+{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.logging > figure
+{
+    
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+.logging > figure > form > button
+{
+    color: black;
+    font-weight: 100;
+}
+
+.logging > figure > form > button:hover
+{
+    color: black;
+    font-weight: 100;
+    background-color: #f0b90b;
+}
+
+.logging > p > a
+{
+    font-size: 10px;
+    text-align: left;
+    margin-top: -20px;
+    color: black;
+    letter-spacing: normal;
+}
+
+#regulations
+{
+    color: #f0b90b;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+#regulations:hover
+{
+    color: #dbaa0a;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.logging > p > a:hover
+{
+    color: #f0b90b;
+}
+.logbox button
+{
+    margin-top: 10px;
+    color: black;
+}
+
+
+.loginbutton
+{
+    background-color: #d0b90b;
+  border: none;   
+    width: 100%;
+  color: white;
+    margin-left: auto;
+    margin-right: auto;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+#h
+{
+    font-size: 28px;
+}
+
+#art
+{
+    width: 100%;
+}
+
+#art2
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#order, #order2
+{
+    margin-top: 3%;
+    width: 50%;
+    text-align: center;   
+}
+.newcard >img
+{
+    width: 100%;
+    float: right;
+}
+
+#newcard > img
+{
+    width: 100%;
+    float: right;
+}
+
+#artmin
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+#h2
+{
+    font-size: 0px;
+}
+
+#ordermin, #order2
+{
+    width: 50%;
+    font-size: 0px;
+    text-align: center;   
+}
+#artmin > img
+{
+    width: 0px;
+    height: 0px;
+    font-size: 0px;
+}
+
+.benefits
+{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bencol
+{
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    padding:10px;
+}
+
+.bencol >p:nth-child(1)
+{
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.bencol >p:nth-child(2)
+{
+    font-weight: 300;
+}
+/* contact */
+#contact
+{
+    background-color: #fafafa;
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 4px #000000;
+}
+
+#sign
+{
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #F0B90B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.con
+{
+    width: 33%;
+    float: left;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+.con > img
+{
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+/* about */
+/* .container
+{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.row
+{
+    margin-bottom: 50px;
+    font-weight: 100;
+}
+
+.container img
+{
+    width: 100%;
+}
+
+.menagement
+{
+    text-align: center;
+}
+
+
+.row>div:nth-child(1)
+{
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
+/* nowy styl about */
+
+#meetcon
+{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.meetuscloser
+{
+    
+}
+
+.row
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.row img
+{
+    width: 75%;
+}
+.row div
+{
+    margin-top: 10px;
+}
+
+.row>div:nth-child(1)
+{
+    display: block;
+    width: 250%;
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    width: 100%;
+    margin-top: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.zdj
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.zdj:before
+{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 220%;
+    background: rgba(240, 185, 11,0.7);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: 0.6s;
+    transition-delay: 0.1s;
+}
+
+.zdj:hover:before
+{
+    left: 10%;
+}
+
+.zdj img
+{
+    width: 100%;
+    height: auto;
+}
+
+.card-text
+{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: -200%;
+    color: #fff;
+    left: 0;
+    z-index: 2;
+    transition: 0.9s;
+}
+
+.card-text h3
+{
+    font-family: poppins;
+}
+
+.zdj:hover .card-text
+{
+    top: 80px;
+}
+
+
+
+@media (max-width:992px)
+{
+    #h
+    {
+        font-size: 25px;
+    }
+    
+    #order
+    {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:924px)
+{
+    #art2
+    {
+        width: 0px;
+        height: 0px;
+        
+    }    
+    #h
+    {
+        font-size: 0px;
+    }
+    #order
+    {
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+    }
+    .newcard
+    {
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+    }
+    
+    #newcard
+    {
+         width: 0px;
+         height: 0px;
+         font-size: 0px;    
+    }
+    
+    #artmin
+    {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    #ordermin, #order2
+    {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;   
+    }
+    #h2
+    {
+        font-size: 25px;
+    }
+    #carto
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    #artmin >img
+    {
+        width: 75%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bencol
+    {
+        width: 100%;
+    }
+    
+    .benefits
+    {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #sign
+    {
+        margin-bottom: 10px;
+        
+    }
+    
+    .con
+    {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    #contact
+    {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+    }
+    
+    
+}
+
+/* 
+#art2 > span > img
+{
+    width: 100%;
+    
+}
+
+#art2 > span
+{
+    margin: auto;
+    width: 50%;
+    float: left;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+ */
+
+
+
+
+
+
+
+
